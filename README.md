@@ -10,7 +10,7 @@
 
 - jito 捆绑交易
 
-想要做到跟随 sold 交易，需要用户提前在平台上签署一笔卖出交易并记录地址，当在 jito 的 mempool 上追踪到该钱包的买入交易时，平台向 jito 发送卖出交易并捆绑在买入交易之后。
+想要做到跟随 sold 交易，需要用户提前在平台上授权代理合约并记录地址，当在 jito 的 mempool 上追踪到该钱包的买入交易时，平台使用代理合约向 jito 发送卖出交易并捆绑在买入交易之后。
 
 - 代理合约授权
 
@@ -26,6 +26,8 @@
 
 ## github 仓库
 
+https://github.com/xwwkk/Solana-Alpha-Suite
+
 ## PPT
 
-
+[ppt](./alphaPoint.pdf)
